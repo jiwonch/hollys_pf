@@ -19,6 +19,18 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'HallymMjo-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymMjo-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HallymMjo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymMjo-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
 
 * {
     margin: 0;
@@ -190,13 +202,11 @@ a {
 } */
 
 #wrap_2{
-    background-color: skyblue;
     width: 100%;
     height: 716px;
 }
 
 #wrap2_content{
-    background-color: violet;
     width: 1140px;
     height: 100%;
     margin: 0 auto;
@@ -205,37 +215,91 @@ a {
 .w2_text{
     width: 490px;
     height: 155px;
-    background-color: rosybrown;
+    background-color: white;
+}
+
+.w2_text p{
+    color: #555;
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 7px;
+    font-family: 'Lora', serif;
+    text-transform: capitalize;
+}
+
+.w2_text h2{
+    color: #333;
+    font-size: 40px;
+    line-height: 1.25;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+    font-family: 'Cardo', serif;
+    text-transform: capitalize;
+}
+
+.w2_text h2:after{
+    width: 85px;
+    height: 10px;
+    position: absolute;
+    content: "";
+    bottom: 9px;
+    z-index: -1;
+    left: 0;
+    background-color: #ba000c;
+    opacity: 0.7;
 }
 
 .w2_content{
     width: 100%;
     height: 561px;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
 }
 
 .w2c_box{
-    background-color: gold;
     width: 370px;
     height: 560px;
 }
 
 .w2cb_img{
-    background-color: #ba000c;
     width: 100%;
     height: 330px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 10px 10px 0  0;
+    border-bottom: none;
+}
+
+.w2cb_img img{
+    width: 100%;
+    height: 100%;
 }
 
 .w2cb_text{
-    background-color: white;
     width: 100%;
     height: 230px;
+    border: 1px solid #ddd;
+    border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
+    padding: 40px 20px;
+}
+
+.w2cb_text h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'YeolrinGothic-Bold', serif;
+}
+
+.w2cb_text p{
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 0;
+    font-family: 'adobaonlyR', serif;
+    font-weight: lighter;
 }
 
 #wrap_3{
-    background-color: coral;
     width: 1280px;
     height: 770px;
     margin: 0 auto;
@@ -245,23 +309,182 @@ a {
 }
 
 .w3_imgbox1{
-    background-color: blue;
     width: 610px;
     height: 610px;
-    margin-left: -200px;
+    margin-left: -170px;
+}
+
+.w3_imgbox1 img{
+    width: 100%;
+    height: 100%;
 }
 
 .w3_textbox1{
-    background-color: darkgoldenrod;
-    width: 600px;
+    width: 650px;
     height: 350px;
+    margin-bottom: -70px;
+    margin-left: -50px;
+}
+
+.w3_textbox1 h5{
+    color: #555;
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 7px;
+    font-family: 'Lora', serif;
+    text-transform: capitalize;
+}
+
+.w3_textbox1 h2{
+    color: #333;
+    font-size: 40px;
+    margin-bottom: 25px;
+    line-height: 1.25;
+    font-family: 'YeolrinGothic-Bold', serif;
+}
+
+.w3_textbox1 h4{
+    color: #ba000c;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: 'HallymMjo-Regular'
+}
+
+.w3_textbox1 p{
+    color: #555;
+    margin-top: 15px;
+    line-height: 1.7;
+    font-size: 15px;
+    margin-bottom: 0;
+    font-family: 'adobaonlyR', serif;
 }
 
 #wrap_4_video{
-    background-color: skyblue;
+    background-image: url(../img/index/video_banner.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
     width: 100%;
     height: 550px;
 }
+
+#w4_video_text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#w4v_t{
+    width: 50%;
+    height: 100px;
+    margin-top: -200px;
+    text-align: center;
+}
+
+#w4v_t h2{
+    font-family: 'Cardo', serif;
+    font-size: 75px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#video_icon{
+    display: inline-block;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#video_popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(228, 238, 238);
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 11;
+}
+
+#close_btn{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 40px;
+    background-color: #eee;
+    margin: 50px auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+#video_popup iframe{
+   margin: 50px 320px;
+}
+
+.video-play-button{
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 32px;
+    height: 44px;
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+}
+
+.video-play-button:before{
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+.video-play-button span{
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    top: 6px;
+    cursor: pointer;
+}
+
+.ti-control-play:before{
+    content: "▷";
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.video-play-button:after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: all 200ms;
+}
+
 
 #wrap_5{
     background-color: #f6f5f1;
