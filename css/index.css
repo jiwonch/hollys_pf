@@ -59,6 +59,7 @@ a {
     width: 100%;
     height: 110px;
     position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
@@ -70,7 +71,6 @@ a {
     width: 1140px;
     height: 110px;
     position: relative;
-    /* position: fixed; */
     margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
@@ -125,6 +125,14 @@ a {
     color: white;
 }
 
+#cm_header.fixed{
+    background-color: white;
+}
+
+.btn_find_store.navred{
+    border: 2px solid #ba000c;
+}
+
 #section1_slider1{
     width: 100%;
     height: 880px;
@@ -149,6 +157,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     margin-top: -200px;
+    z-index: 15;
 }
 
 .s1_text_box h5{
@@ -425,6 +434,7 @@ a {
 
 #video_popup iframe{
    margin: 50px 320px;
+   border: 0;
 }
 
 .video-play-button{
@@ -508,7 +518,6 @@ a {
 }
 
 .w5ct{
-    background-color: white;
     width: 560px;
     height: 100%;
 }
@@ -581,8 +590,43 @@ a {
     width: 100%;
     height: 640px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
+
+.w5c_content_2{
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.w5c_content_3{
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.w5c_content_4{
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.w5c_content_5{
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.red{
+    color: #ba000c !important;
+    border-bottom: 2px solid #ba000c;
+}
+
 
 .w5cc_box{
     width: 560px;
@@ -602,7 +646,7 @@ a {
 
 .w5cc_img{
     background-color: #eee;
-    border-radius: 10%;
+    border-radius: 10% 0 0 10%;
     width: 175px;
     height: 163px;
 }
@@ -626,13 +670,14 @@ a {
     font-size: 20px;
     font-weight: 700;
     line-height: 1.2em;
+    padding-bottom: 5px;
     color: #333;
     font-family: 'YeolrinGothic-Bold'   
 }
 
 .w5cc_text p{
     font-size: 15px;
-    line-height: 1.7;
+    line-height: 1.4;
     margin-bottom: 0;
     color: #555;
     font-family: 'adobaonlyR';
