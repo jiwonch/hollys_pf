@@ -348,13 +348,14 @@ a {
     border-radius: 50%;
     font-size: 40px;
     background-color: #eee;
-    margin: 50px auto 0;
+    float: right;
+    margin: 130px 260px 0 0;
     display: none;
     cursor: pointer;
 }
 
 #video_popup iframe{
-   margin: 50px 320px;
+   margin: 0px 320px;
    border: 0;
 }
 
@@ -742,8 +743,13 @@ a {
 .w8_content{
     background-color: aquamarine;
     margin: 0 auto;
-    width: 1140px;
-    height: 355px;
+    width: 100%;
+    height: 400px;
+}
+
+.w8_banner{
+    width: 100%;
+    height: 100%;
 }
 
 /* 페이지9 신상 푸드 */
