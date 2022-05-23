@@ -129,6 +129,7 @@ a {
 #cm_header.fixed{
     background-color: white;
     z-index: 20;
+    box-shadow: 0 1px 10px 0 rgba(105, 105, 105, 0.3);
 }
 
 .btn_find_store.navred{
@@ -137,7 +138,7 @@ a {
 
 /* footer */
 #wrap_footer{
-    background-color: #ba000c;
+    background-color: #f6f5f1;
     width: 100%;
     height: 465px;
     display: flex;
@@ -175,7 +176,7 @@ footer{
 }
 
 .ft_sec ul li a{
-    color: #fff;
+    color: #333;
     font-family: 'HallymMjo-Regular';
     font-size: 14px;
     letter-spacing: 1px;
@@ -193,7 +194,7 @@ footer{
 }
 
 #ft_box2{
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #ccc;
     width: 1140px;
     height: 59px;
     display: flex;
@@ -209,7 +210,7 @@ footer{
 }
 
 #ft_box2 h6{
-    color: #ddd;
+    color: #333;
     font-size: 12px;
     font-family: 'HallymMjo-Regular';
     letter-spacing: 1px;
