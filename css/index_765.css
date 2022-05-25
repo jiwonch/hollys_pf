@@ -55,19 +55,19 @@ a {
     text-decoration: none;
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (max-width: 949px) {
 
     /* 페이지1 메인 */
     #section1_slider1 {
         width: 100%;
-        height: 880px;
+        height: 750px;
         position: relative;
         overflow: hidden;
     }
 
     #slider1_text {
-        width: 1000px;
-        height: 770px;
+        width: 600px;
+        height: 700px;
         margin: 150px auto 0;
         display: flex;
         justify-content: flex-start;
@@ -81,7 +81,6 @@ a {
         flex-direction: column;
         justify-content: space-between;
         margin-top: -200px;
-        z-index: 15;
     }
 
     .s1_text_box h5 {
@@ -216,11 +215,12 @@ a {
     /* 페이지2 인기상품 */
     #wrap_2 {
         width: 100%;
-        height: 716px;
+        height: 1200px;
+        margin: 0 auto;
     }
 
     #wrap2_content {
-        width: 1140px;
+        width: 720px;
         height: 100%;
         margin: 0 auto;
     }
@@ -265,19 +265,22 @@ a {
 
     .w2_content {
         width: 100%;
-        height: 561px;
+        height: 1100px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
+        align-content: space-around;
     }
 
     .w2c_box {
-        width: 370px;
-        height: 560px;
+        width: 357px;
+        height: 500px;
+        border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
     }
 
     .w2cb_img {
         width: 100%;
-        height: 330px;
+        height: 270px;
         background-color: #eee;
         border: 1px solid #ddd;
         border-radius: 10px 10px 0 0;
@@ -359,8 +362,8 @@ a {
 
     /* 페이지3 할리스 역사 */
     #wrap_3 {
-        width: 1140px;
-        height: 770px;
+        width: 720px;
+        height: 700px;
         margin: 0 auto;
         display: flex;
         align-items: center;
@@ -368,9 +371,8 @@ a {
     }
 
     .w3_imgbox1 {
-        width: 500px;
-        height: 500px;
-        margin-left: -50px;
+        width: 300px;
+        height: 300px;
     }
 
     .w3_imgbox1 img {
@@ -379,15 +381,15 @@ a {
     }
 
     .w3_textbox1 {
-        width: 580px;
+        width: 500px;
         height: 350px;
-        margin-bottom: -100px;
+        margin-bottom: -20px;
         margin-left: 50px;
     }
 
     .w3_textbox1 h5 {
         color: #555;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.7;
         margin-bottom: 7px;
         font-family: 'Lora', serif;
@@ -396,7 +398,7 @@ a {
 
     .w3_textbox1 h2 {
         color: #333;
-        font-size: 40px;
+        font-size: 38px;
         margin-bottom: 25px;
         line-height: 1.25;
         font-family: 'YeolrinGothic-Bold', serif;
@@ -405,7 +407,7 @@ a {
     .w3_textbox1 h4 {
         color: #ba000c;
         margin-bottom: 25px;
-        font-size: 24px;
+        font-size: 21px;
         font-weight: 500;
         line-height: 1.2em;
         font-family: 'HallymMjo-Regular'
@@ -413,7 +415,7 @@ a {
 
     .w3_textbox1 p {
         color: #555;
-        margin-top: 15px;
+        margin-top: 13px;
         line-height: 1.7;
         font-size: 15px;
         margin-bottom: 0;
@@ -466,7 +468,7 @@ a {
         position: relative;
         background-size: cover;
         width: 100%;
-        height: 550px;
+        height: 220px;
     }
 
     #w4_video_text {
@@ -488,14 +490,15 @@ a {
 
     #w4v_t h2 {
         font-family: 'Cardo', serif;
-        font-size: 75px;
+        margin-top: 55px;
+        font-size: 40px;
         color: #fff;
         text-transform: capitalize;
     }
 
     #video_icon {
         display: inline-block;
-        margin-top: 50px;
+        margin-top: 20px;
         cursor: pointer;
     }
 
@@ -504,6 +507,7 @@ a {
         top: 0;
         left: 0;
         width: 100%;
+        margin: 0 auto;
         height: 100%;
         background-color: rgb(228, 238, 238);
         background-color: rgba(0, 0, 0, 0.5);
@@ -525,8 +529,8 @@ a {
 
     #video_iframe {
         margin: 20px auto;
-        width: 1200px;
-        height: 650px;
+        width: 700px;
+        height: 400px;
     }
 
     #video_iframe iframe {
@@ -603,7 +607,7 @@ a {
     }
 
     .w5_content {
-        width: 1140px;
+        width: 900px;
         height: 796px;
         margin: 0 auto;
     }
@@ -686,7 +690,7 @@ a {
 
     .w5c_content_1 {
         width: 100%;
-        height: 640px;
+        height: 500px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -694,28 +698,28 @@ a {
 
     .w5c_content_2 {
         width: 100%;
-        height: 640px;
+        height: 500px;
         display: flex;
         justify-content: space-between;
     }
 
     .w5c_content_3 {
         width: 100%;
-        height: 640px;
+        height: 500px;
         display: flex;
         justify-content: space-between;
     }
 
     .w5c_content_4 {
         width: 100%;
-        height: 640px;
+        height: 500px;
         display: flex;
         justify-content: space-between;
     }
 
     .w5c_content_5 {
         width: 100%;
-        height: 640px;
+        height: 500px;
         display: flex;
         justify-content: space-between;
     }
@@ -727,7 +731,7 @@ a {
 
 
     .w5cc_box {
-        width: 560px;
+        width: 440px;
         height: 640px;
         display: flex;
         flex-direction: column;
@@ -736,7 +740,7 @@ a {
 
     .w5ccb {
         width: 100%;
-        height: 200px;
+        height: 130px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -745,8 +749,8 @@ a {
     .w5cc_img {
         background-color: #eee;
         /* border-radius: 10% 0 0 10%; */
-        width: 175px;
-        height: 163px;
+        width: 130px;
+        height: 130px;
     }
 
     .w5cc_img img {
@@ -756,8 +760,8 @@ a {
 
     .w5cc_text {
         background-color: white;
-        width: 375px;
-        height: 163px;
+        width: 330px;
+        height: 130px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -774,7 +778,7 @@ a {
     }
 
     .w5cc_text p {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 1.4;
         margin-bottom: 0;
         color: #555;
@@ -793,7 +797,7 @@ a {
 
     /* 페이지6 신상 음료 */
     #wrap_6 {
-        width: 1140px;
+        width: 900px;
         height: 985px;
         margin: 0 auto;
         display: flex;
@@ -801,7 +805,7 @@ a {
     }
 
     .w6_content {
-        width: 1140px;
+        width: 900px;
         height: 717px;
     }
 
@@ -843,20 +847,21 @@ a {
     }
 
     .w6c_content {
-        width: 1140px;
+        width: 900px;
         height: 561px;
         display: flex;
         justify-content: space-between;
     }
 
     .w6cc_box {
-        width: 370px;
-        height: 560px;
+        width: 290px;
+        height: 500px;
+        border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
     }
 
     .w6cb_img {
         width: 100%;
-        height: 330px;
+        height: 270px;
         background-color: #eee;
         border: 1px solid #ddd;
         border-radius: 10px 10px 0 0;
@@ -877,14 +882,14 @@ a {
     }
 
     .w6cb_text h3 {
-        font-size: 24px;
+        font-size: 21px;
         font-weight: 700;
         margin-bottom: 20px;
         font-family: 'YeolrinGothic-Bold', serif;
     }
 
     .w6cb_text p {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 1.7;
         margin-bottom: 0;
         font-family: 'adobaonlyR', serif;
@@ -955,15 +960,16 @@ a {
     /* 페이지8 광고 banner */
     #wrap_8 {
         width: 100%;
-        height: 635px;
+        height: 300px;
         display: flex;
         align-items: center;
     }
 
     .w8_content {
+        background-color: aquamarine;
         margin: 0 auto;
         width: 100%;
-        height: 420px;
+        height: 230px;
     }
 
     .w8_content a img {
@@ -973,7 +979,7 @@ a {
 
     /* 페이지9 신상 푸드 */
     #wrap_9 {
-        width: 1140px;
+        width: 900px;
         height: 1005px;
         margin: 0 auto;
         display: flex;
@@ -1024,19 +1030,20 @@ a {
 
     .w9c_content {
         width: 100%;
-        height: 560px;
+        height: 550px;
         display: flex;
         justify-content: space-between;
     }
 
     .w9cc_box {
-        width: 370px;
+        width: 290px;
         height: 100%;
+        border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
     }
 
     .w9cb_img {
         width: 100%;
-        height: 330px;
+        height: 270px;
         background-color: #eee;
         border: 1px solid #ddd;
         border-radius: 10px 10px 0 0;
@@ -1057,7 +1064,7 @@ a {
     }
 
     .w9cb_text h3 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 700;
         margin-bottom: 20px;
         font-family: 'YeolrinGothic-Bold', serif;

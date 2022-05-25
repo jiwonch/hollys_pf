@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hollys coffee</title>
+    <link rel="stylesheet" href="css/index_765.css">
+    <link rel="stylesheet" href="css/index_950.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,8 +18,13 @@
     <div id="wrap_1">
         <header id="cm_header">
             <div id="header_nav_bar">
+                <div class="hamberger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <a href="#"><img src="img/index/logo.png" alt="logo"></a>
-                <nav id="header_nav">
+                <nav id="header_nav" class="nav_hide">
                     <ul>
                         <li><a href="#">Menu</a></li>
                         <!-- <li><a href="#">HOLLYS Mall</a></li> -->
@@ -30,6 +37,9 @@
                 <a href="#" class="btn_find_store">find a store</a>
             </div>
         </header>
+
+        <!-- 햄버거로 메뉴바 열리고 닫힘 -->
+        <script src="js/menubar_hamberger.js"></script>
 
         <!-- 헤더 네비 고정 및 하얀색으로 배경색 변경 -->
         <script src="js/header_fixed.js"></script>
@@ -147,9 +157,12 @@
     <!-- 유튜브 팝업 -->
     <div id="video_popup">
         <div id="close_btn">X</div>
-        <iframe width="1271" height="715" src="https://www.youtube.com/embed/ehONVrSBQww" title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+        <div id="video_iframe">
+            <iframe src="https://www.youtube.com/embed/ehONVrSBQww" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
     </div>
 
     <!-- 유튜브 팝업창 띄우기 -->
@@ -585,7 +598,7 @@
                     </div>
                     <div class="w6cb_text">
                         <h3>샤인머스캣 봉봉 스무디</h3>
-                        <p>상큼하고 달콤한 샤인머스캣 스무디 위에 샤인 머스캣
+                        <p>상큼하고 달콤한 스무디 위에 샤인 머스캣
                             봉봉 아이스크림을 올린 스무디
                         </p>
                         <a href="#" class="btn_readmore">
