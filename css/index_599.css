@@ -55,7 +55,7 @@ a {
     text-decoration: none;
 }
 
-@media screen and (min-width: 600px) and (max-width: 764px) {
+@media screen and (max-width: 599px) {
 
     /* 페이지1 메인 */
     #section1_slider1 {
