@@ -60,15 +60,15 @@ a {
     /* 페이지1 메인 */
     #section1_slider1 {
         width: 100%;
-        height: 750px;
+        height: 650px;
         position: relative;
         overflow: hidden;
         background-color: #f6f5f1;
     }
 
     #slider1_text {
-        width: 450px;
-        height: 700px;
+        width: 75%;
+        height: 600px;
         margin: 150px auto 0;
         display: flex;
         justify-content: flex-start;
@@ -86,7 +86,7 @@ a {
 
     .s1_text_box h5 {
         color: #ba000c;
-        font-size: 30px;
+        font-size: 28px;
         font-family: 'Lora', serif;
         text-transform: capitalize;
         font-weight: 700;
@@ -96,7 +96,7 @@ a {
     .s1_text_box h1 {
         font-family: 'YeolrinGothic-Bold', serif;
         color: #333;
-        font-size: 45px;
+        font-size: 32px;
         font-weight: 400;
         line-height: 120%;
     }
@@ -106,6 +106,7 @@ a {
         color: #666;
         font-weight: lighter;
         line-height: 130%;
+        font-size: 15px;
     }
 
     .s1_button_box {
@@ -217,18 +218,20 @@ a {
     /* 페이지2 인기상품 */
     #wrap_2 {
         width: 100%;
-        height: 1200px;
+        height: 2000px;
         margin: 0 auto;
+        display: flex;
+        align-items: center;
     }
 
     #wrap2_content {
-        width: 550px;
-        height: 100%;
+        width: 80%;
+        height: 1850px;
         margin: 0 auto;
     }
 
     .w2_text {
-        width: 490px;
+        width: 90%;
         height: 155px;
         background-color: white;
     }
@@ -267,7 +270,7 @@ a {
 
     .w2_content {
         width: 100%;
-        height: 1100px;
+        height: 200vh;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -275,14 +278,14 @@ a {
     }
 
     .w2c_box {
-        width: 270px;
-        height: 500px;
+        width: 100%;
+        height: 65vh;
         border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
     }
 
     .w2cb_img {
         width: 100%;
-        height: 270px;
+        height: 60%;
         background-color: #eee;
         border: 1px solid #ddd;
         border-radius: 10px 10px 0 0;
@@ -296,7 +299,7 @@ a {
 
     .w2cb_text {
         width: 100%;
-        height: 230px;
+        height: 40%;
         border: 1px solid #ddd;
         border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
         padding: 30px 30px 0 30px;
@@ -364,8 +367,8 @@ a {
 
     /* 페이지3 할리스 역사 */
     #wrap_3 {
-        width: 550px;
-        height: 750px;
+        width: 100%;
+        height: 800px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -384,7 +387,7 @@ a {
     }
 
     .w3_textbox1 {
-        width: 520px;
+        width: 80%;
         height: 350px;
         margin: -50px auto 0;
     }
@@ -470,7 +473,7 @@ a {
         position: relative;
         background-size: cover;
         width: 100%;
-        height: 200px;
+        height: 150px;
     }
 
     #w4_video_text {
@@ -492,8 +495,8 @@ a {
 
     #w4v_t h2 {
         font-family: 'Cardo', serif;
-        margin-top: 70px;
-        font-size: 38px;
+        margin-top: 85px;
+        font-size: 30px;
         color: #fff;
         text-transform: capitalize;
     }
@@ -531,8 +534,8 @@ a {
 
     #video_iframe {
         margin: 20px auto;
-        width: 500px;
-        height: 280px;
+        width: 79%;
+        height: 25%;
     }
 
     #video_iframe iframe {
@@ -603,14 +606,14 @@ a {
     #wrap_5 {
         background-color: #f6f5f1;
         width: 100%;
-        height: 1400px;
+        height: 3000px;
         display: flex;
         align-items: center;
     }
 
     .w5_content {
-        width: 550px;
-        height: 1300px;
+        width: 80%;
+        height: 2800px;
         margin: 0 auto;
     }
 
@@ -623,7 +626,7 @@ a {
     }
 
     .w5ct {
-        width: 560px;
+        width: 95%;
         height: 70%;
     }
 
@@ -638,7 +641,7 @@ a {
 
     .w5ct h2 {
         color: #333;
-        font-size: 40px;
+        font-size: 37px;
         line-height: 1.25;
         font-weight: 700;
         position: relative;
@@ -660,7 +663,7 @@ a {
     }
 
     .w5ct_1 {
-        width: 550px;
+        width: 95%;
         height: 30%;
         display: flex;
         align-items: center;
@@ -693,37 +696,41 @@ a {
 
     .w5c_content_1 {
         width: 100%;
-        height: 800px;
+        height: 1700px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 
     .w5c_content_2 {
         width: 100%;
-        height: 800px;
+        height: 1700px;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
 
     .w5c_content_3 {
         width: 100%;
-        height: 800px;
+        height: 1700px;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
 
     .w5c_content_4 {
         width: 100%;
-        height: 800px;
+        height: 1700px;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
 
     .w5c_content_5 {
         width: 100%;
-        height: 800px;
+        height: 1700px;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
 
@@ -734,8 +741,8 @@ a {
 
 
     .w5cc_box {
-        width: 440px;
-        height: 1100px;
+        width: 100%;
+        height: 1400px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -743,7 +750,7 @@ a {
 
     .w5ccb {
         width: 100%;
-        height: 600px;
+        height: 50vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -752,8 +759,8 @@ a {
     .w5cc_img {
         background-color: #eee;
         /* border-radius: 10% 0 0 10%; */
-        width: 250px;
-        height: 200px;
+        width: 80%;
+        height: 70%;
     }
 
     .w5cc_img img {
@@ -763,8 +770,8 @@ a {
 
     .w5cc_text {
         background-color: white;
-        width: 250px;
-        height: 130px;
+        width: 80%;
+        height: 30%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -800,20 +807,21 @@ a {
 
     /* 페이지6 신상 음료 */
     #wrap_6 {
-        width: 550px;
-        height: 1400px;
+        width: 100%;
+        height: 2000px;
         margin: 0 auto;
         display: flex;
         align-items: center;
     }
 
     .w6_content {
-        width: 550px;
-        height: 1200px;
+        width: 80%;
+        height: 1800px;
+        margin: 0 auto;
     }
 
     .w6c_text {
-        width: 490px;
+        width: 90%;
         height: 155px;
     }
 
@@ -828,7 +836,7 @@ a {
 
     .w6c_text h2 {
         color: #333;
-        font-size: 40px;
+        font-size: 38px;
         line-height: 1.25;
         font-weight: 700;
         position: relative;
@@ -850,8 +858,8 @@ a {
     }
 
     .w6c_content {
-        width: 550px;
-        height: 1100px;
+        width: 100%;
+        height: 200vh;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -859,14 +867,14 @@ a {
     }
 
     .w6cc_box {
-        width: 270px;
-        height: 500px;
+        width: 100%;
+        height: 65vh;
         border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
     }
 
     .w6cb_img {
         width: 100%;
-        height: 270px;
+        height: 60%;
         background-color: #eee;
         border: 1px solid #ddd;
         border-radius: 10px 10px 0 0;
@@ -880,14 +888,14 @@ a {
 
     .w6cb_text {
         width: 100%;
-        height: 230px;
+        height: 40%;
         border: 1px solid #ddd;
         border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
         padding: 40px 30px;
     }
 
     .w6cb_text h3 {
-        font-size: 19px;
+        font-size: 24px;
         font-weight: 700;
         margin-bottom: 20px;
         font-family: 'YeolrinGothic-Bold', serif;
@@ -965,7 +973,7 @@ a {
     /* 페이지8 광고 banner */
     #wrap_8 {
         width: 100%;
-        height: 300px;
+        height: 45vh;
         display: flex;
         align-items: center;
     }
@@ -984,18 +992,20 @@ a {
     /* 페이지9 신상 푸드 */
     #wrap_9 {
         width: 100%;
-        height: 1300px;
+        height: 2050px;
         margin: 0 auto;
+        display: flex;
+        align-items: center;
     }
 
     .w9_content {
-        width: 550px;
-        height: 1100px;
-        margin: 50px auto;
+        width: 80%;
+        height: 2050px;
+        margin: 0 auto;
     }
 
     .w9c_text {
-        width: 490px;
+        width: 90%;
         height: 155px;
     }
 
@@ -1032,8 +1042,8 @@ a {
     }
 
     .w9c_content {
-        width: 550px;
-        height: 1100px;
+        width: 100%;
+        height: 200vh;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -1041,14 +1051,14 @@ a {
     }
 
     .w9cc_box {
-        width: 270px;
-        height: 500px;
+        width: 100%;
+        height: 65vh;
         border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
     }
 
     .w9cb_img {
         width: 100%;
-        height: 270px;
+        height: 60%;
         background-color: #eee;
         border: 1px solid #ddd;
         border-radius: 10px 10px 0 0;
@@ -1062,21 +1072,21 @@ a {
 
     .w9cb_text {
         width: 100%;
-        height: 230px;
+        height: 40%;
         border: 1px solid #ddd;
         border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
         padding: 40px 30px;
     }
 
     .w9cb_text h3 {
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 700;
         margin-bottom: 20px;
         font-family: 'YeolrinGothic-Bold', serif;
     }
 
     .w9cb_text p {
-        font-size: 13px;
+        font-size: 15px;
         line-height: 1.7;
         margin-bottom: 0;
         font-family: 'adobaonlyR', serif;
