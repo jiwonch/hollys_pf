@@ -200,13 +200,13 @@ a {
     }
 
     footer {
-        width: 720px;
+        width: 550px;
         height: 500px;
         margin-bottom: 20px;
     }
 
     #ft_box1 {
-        width: 720px;
+        width: 550px;
         height: 450px;
         display: flex;
         flex-direction: row;
@@ -215,7 +215,7 @@ a {
     }
 
     .ft_sec {
-        width: 280px;
+        width: 45%;
         height: 50%;
         display: flex;
     }
@@ -267,7 +267,7 @@ a {
 
     #ft_box2 {
         border-top: 2px solid #ba000c;
-        width: 720px;
+        width: 550px;
         height: 59px;
         display: flex;
         justify-content: space-between;
@@ -287,6 +287,7 @@ a {
         font-family: 'adobaonlyR';
         letter-spacing: 1px;
         font-weight: 100;
+        display: none;
     }
 
     #ft_box2 p img {

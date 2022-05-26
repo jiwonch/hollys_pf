@@ -67,7 +67,7 @@ a {
     }
 
     #slider1_text {
-        width: 600px;
+        width: 450px;
         height: 700px;
         margin: 150px auto 0;
         display: flex;
@@ -222,7 +222,7 @@ a {
     }
 
     #wrap2_content {
-        width: 720px;
+        width: 550px;
         height: 100%;
         margin: 0 auto;
     }
@@ -275,7 +275,7 @@ a {
     }
 
     .w2c_box {
-        width: 357px;
+        width: 270px;
         height: 500px;
         border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
     }
@@ -364,17 +364,18 @@ a {
 
     /* 페이지3 할리스 역사 */
     #wrap_3 {
-        width: 720px;
-        height: 700px;
+        width: 550px;
+        height: 750px;
         margin: 0 auto;
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .w3_imgbox1 {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }
 
     .w3_imgbox1 img {
@@ -383,10 +384,9 @@ a {
     }
 
     .w3_textbox1 {
-        width: 500px;
+        width: 520px;
         height: 350px;
-        margin-bottom: -20px;
-        margin-left: 50px;
+        margin: -50px auto 0;
     }
 
     .w3_textbox1 h5 {
@@ -470,7 +470,7 @@ a {
         position: relative;
         background-size: cover;
         width: 100%;
-        height: 220px;
+        height: 200px;
     }
 
     #w4_video_text {
@@ -492,15 +492,15 @@ a {
 
     #w4v_t h2 {
         font-family: 'Cardo', serif;
-        margin-top: 55px;
-        font-size: 40px;
+        margin-top: 70px;
+        font-size: 38px;
         color: #fff;
         text-transform: capitalize;
     }
 
     #video_icon {
         display: inline-block;
-        margin-top: 20px;
+        margin-top: 30px;
         cursor: pointer;
     }
 
@@ -531,8 +531,8 @@ a {
 
     #video_iframe {
         margin: 20px auto;
-        width: 700px;
-        height: 400px;
+        width: 500px;
+        height: 280px;
     }
 
     #video_iframe iframe {
@@ -603,14 +603,14 @@ a {
     #wrap_5 {
         background-color: #f6f5f1;
         width: 100%;
-        height: 1700px;
+        height: 1400px;
         display: flex;
         align-items: center;
     }
 
     .w5_content {
-        width: 720px;
-        height: 1500px;
+        width: 550px;
+        height: 1300px;
         margin: 0 auto;
     }
 
@@ -660,7 +660,7 @@ a {
     }
 
     .w5ct_1 {
-        width: 700px;
+        width: 550px;
         height: 30%;
         display: flex;
         align-items: center;
@@ -735,7 +735,7 @@ a {
 
     .w5cc_box {
         width: 440px;
-        height: 1300px;
+        height: 1100px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -752,8 +752,8 @@ a {
     .w5cc_img {
         background-color: #eee;
         /* border-radius: 10% 0 0 10%; */
-        width: 330px;
-        height: 280px;
+        width: 250px;
+        height: 200px;
     }
 
     .w5cc_img img {
@@ -763,7 +763,7 @@ a {
 
     .w5cc_text {
         background-color: white;
-        width: 330px;
+        width: 250px;
         height: 130px;
         display: flex;
         flex-direction: column;
@@ -772,7 +772,7 @@ a {
     }
 
     .w5cc_text h3 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 700;
         line-height: 1.2em;
         padding-bottom: 5px;
@@ -781,7 +781,7 @@ a {
     }
 
     .w5cc_text p {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 1.4;
         margin-bottom: 0;
         color: #555;
@@ -789,7 +789,7 @@ a {
     }
 
     .w5cc_text h5 {
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 700;
         color: #ba000c;
         margin-top: 20px;
@@ -800,7 +800,7 @@ a {
 
     /* 페이지6 신상 음료 */
     #wrap_6 {
-        width: 720px;
+        width: 550px;
         height: 1400px;
         margin: 0 auto;
         display: flex;
@@ -808,7 +808,7 @@ a {
     }
 
     .w6_content {
-        width: 720px;
+        width: 550px;
         height: 1200px;
     }
 
@@ -850,7 +850,7 @@ a {
     }
 
     .w6c_content {
-        width: 720px;
+        width: 550px;
         height: 1100px;
         display: flex;
         flex-wrap: wrap;
@@ -859,7 +859,7 @@ a {
     }
 
     .w6cc_box {
-        width: 357px;
+        width: 270px;
         height: 500px;
         border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
     }
@@ -887,7 +887,7 @@ a {
     }
 
     .w6cb_text h3 {
-        font-size: 24px;
+        font-size: 19px;
         font-weight: 700;
         margin-bottom: 20px;
         font-family: 'YeolrinGothic-Bold', serif;
@@ -973,7 +973,7 @@ a {
     .w8_content {
         margin: 0 auto;
         width: 100%;
-        height: 230px;
+        height: 180px;
     }
 
     .w8_content a img {
@@ -989,7 +989,7 @@ a {
     }
 
     .w9_content {
-        width: 720px;
+        width: 550px;
         height: 1100px;
         margin: 50px auto;
     }
@@ -1032,7 +1032,7 @@ a {
     }
 
     .w9c_content {
-        width: 720px;
+        width: 550px;
         height: 1100px;
         display: flex;
         flex-wrap: wrap;
@@ -1041,7 +1041,7 @@ a {
     }
 
     .w9cc_box {
-        width: 357px;
+        width: 270px;
         height: 500px;
         border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
     }
@@ -1069,14 +1069,14 @@ a {
     }
 
     .w9cb_text h3 {
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 700;
         margin-bottom: 20px;
         font-family: 'YeolrinGothic-Bold', serif;
     }
 
     .w9cb_text p {
-        font-size: 15px;
+        font-size: 13px;
         line-height: 1.7;
         margin-bottom: 0;
         font-family: 'adobaonlyR', serif;
