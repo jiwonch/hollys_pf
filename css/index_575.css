@@ -55,7 +55,7 @@ a {
     text-decoration: none;
 }
 
-@media screen and (min-width: 765px) and (max-width: 949px) {
+@media screen and (max-width: 764px) {
 
     /* 페이지1 메인 */
     #section1_slider1 {
@@ -63,6 +63,7 @@ a {
         height: 750px;
         position: relative;
         overflow: hidden;
+        background-color: #f6f5f1;
     }
 
     #slider1_text {
@@ -194,6 +195,7 @@ a {
     #slider1_img {
         /* width: 1600px;
     height: 885px; */
+        display: none;
         width: 83vw;
         height: 46vw;
         transform: rotate(29deg);
