@@ -194,7 +194,7 @@ a {
     #wrap_footer {
         background-color: #f6f5f1;
         width: 100%;
-        height: 800px;
+        height: 1000px;
         display: flex;
         align-items: flex-end;
         justify-content: center;
@@ -202,7 +202,7 @@ a {
 
     footer {
         width: 100%;
-        height: 750px;
+        height: 900px;
         margin-bottom: 20px;
     }
 
@@ -217,7 +217,7 @@ a {
     }
 
     .ft_sec {
-        width: 50%;
+        width: 51%;
         height: auto;
     }
 
