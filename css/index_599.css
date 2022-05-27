@@ -68,7 +68,7 @@ a {
 
     #slider1_text {
         width: 75%;
-        height: 600px;
+        height: 650px;
         margin: 150px auto 0;
         display: flex;
         justify-content: flex-start;
@@ -76,8 +76,8 @@ a {
     }
 
     .s1_text_box {
-        width: 600px;
-        height: 350px;
+        width: 100%;
+        height: 50%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -86,7 +86,7 @@ a {
 
     .s1_text_box h5 {
         color: #ba000c;
-        font-size: 28px;
+        font-size: 25px;
         font-family: 'Lora', serif;
         text-transform: capitalize;
         font-weight: 700;
@@ -96,7 +96,7 @@ a {
     .s1_text_box h1 {
         font-family: 'YeolrinGothic-Bold', serif;
         color: #333;
-        font-size: 32px;
+        font-size: 30px;
         font-weight: 400;
         line-height: 120%;
     }
@@ -106,7 +106,7 @@ a {
         color: #666;
         font-weight: lighter;
         line-height: 130%;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .s1_button_box {
