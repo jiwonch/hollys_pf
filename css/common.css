@@ -217,7 +217,7 @@ a {
     }
 
     .ft_sec {
-        width: 51%;
+        width: 80%;
         height: auto;
     }
 
@@ -250,7 +250,11 @@ a {
     }
 
     .input_container {
-        width: 100%;
+        width: 80%;
+    }
+
+    .input-field{
+        width: 100px !important;
     }
 
     .icon {

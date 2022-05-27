@@ -218,7 +218,7 @@ a {
     /* 페이지2 인기상품 */
     #wrap_2 {
         width: 100%;
-        height: 1900px;
+        height: 2000px;
         margin: 0 auto;
         display: flex;
         align-items: center;
@@ -226,7 +226,7 @@ a {
 
     #wrap2_content {
         width: 80%;
-        height: 1850px;
+        height: 1950px;
         margin: 0 auto;
     }
 
@@ -270,7 +270,7 @@ a {
 
     .w2_content {
         width: 100%;
-        height: 1650px;
+        height: 1750px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -605,14 +605,14 @@ a {
     #wrap_5 {
         background-color: #f6f5f1;
         width: 100%;
-        height: 3200px;
+        height: 2900px;
         display: flex;
         align-items: center;
     }
 
     .w5_content {
         width: 80%;
-        height: 3000px;
+        height: 2800px;
         margin: 0 auto;
     }
 
@@ -640,7 +640,7 @@ a {
 
     .w5ct h2 {
         color: #333;
-        font-size: 25px;
+        font-size: 22px;
         line-height: 1.25;
         font-weight: 700;
         position: relative;
@@ -807,7 +807,7 @@ a {
     /* 페이지6 신상 음료 */
     #wrap_6 {
         width: 100%;
-        height: 1900px;
+        height: 2000px;
         margin: 0 auto;
         display: flex;
         align-items: center;
@@ -815,7 +815,7 @@ a {
 
     .w6_content {
         width: 80%;
-        height: 1800px;
+        height: 1950px;
         margin: 0 auto;
     }
 
@@ -858,7 +858,7 @@ a {
 
     .w6c_content {
         width: 100%;
-        height: 1650px;
+        height: 1750px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -873,7 +873,7 @@ a {
 
     .w6cb_img {
         width: 100%;
-        height: 60%;
+        height: 55%;
         background-color: #eee;
         border: 1px solid #ddd;
         border-radius: 10px 10px 0 0;
@@ -887,7 +887,7 @@ a {
 
     .w6cb_text {
         width: 100%;
-        height: 40%;
+        height: 45%;
         border: 1px solid #ddd;
         border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
         padding: 40px 30px;
@@ -991,7 +991,7 @@ a {
     /* 페이지9 신상 푸드 */
     #wrap_9 {
         width: 100%;
-        height: 1900px;
+        height: 2000px;
         margin: 0 auto;
         display: flex;
         align-items: center;
@@ -999,7 +999,7 @@ a {
 
     .w9_content {
         width: 80%;
-        height: 1800px;
+        height: 1950px;
         margin: 0 auto;
     }
 
@@ -1042,7 +1042,7 @@ a {
 
     .w9c_content {
         width: 100%;
-        height: 1650px;
+        height: 1750px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -1057,7 +1057,7 @@ a {
 
     .w9cb_img {
         width: 100%;
-        height: 60%;
+        height: 55%;
         background-color: #eee;
         border: 1px solid #ddd;
         border-radius: 10px 10px 0 0;
@@ -1071,14 +1071,14 @@ a {
 
     .w9cb_text {
         width: 100%;
-        height: 40%;
+        height: 45%;
         border: 1px solid #ddd;
         border-radius: 100px 0px 623px 77px / 0px 50px 160px 58px;
         padding: 40px 30px;
     }
 
     .w9cb_text h3 {
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 700;
         margin-bottom: 20px;
         font-family: 'YeolrinGothic-Bold', serif;
