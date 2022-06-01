@@ -102,6 +102,12 @@ a {
     position: relative;
 }
 
+/* #incheon{
+    border: 2px solid #ba000c;
+    float: right;
+    z-index: 50;
+} */
+
 .w2c1_search {
     width: 50%;
     height: 85%;
