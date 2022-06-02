@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hollys coffee</title>
-    <link rel="stylesheet" href="css/store_practice.css">
+    <link rel="stylesheet" href="css/store_1200.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
@@ -75,7 +75,24 @@
                     </map>
                 </map>
                 <script src="js/area_click.js"></script> -->
-                <div id="incheon" value="인천"></div>
+                <div id="incheon" class="mapArea" value="인천"></div>
+                <div id="gyeonggi" class="mapArea" value="경기"></div>
+                <div id="seoul" class="mapArea" value="서울"></div>
+                <div id="gangwon" class="mapArea" value="강원"></div>
+                <div id="chungnam" class="mapArea" value="충남"></div>
+                <div id="sejong" class="mapArea" value="세종"></div>
+                <div id="chungbuk" class="mapArea" value="충북"></div>
+                <div id="daejeon" class="mapArea" value="대전"></div>
+                <div id="jeonbuk" class="mapArea" value="전북"></div>
+                <div id="gwangju" class="mapArea" value="광주"></div>
+                <div id="jeonnam" class="mapArea" value="전남"></div>
+                <div id="gyeongbuk" class="mapArea" value="경북"></div>
+                <div id="daegu" class="mapArea" value="대구"></div>
+                <div id="ulsan" class="mapArea" value="울산"></div>
+                <div id="busan" class="mapArea" value="부산"></div>
+                <div id="gyeongnam" class="mapArea" value="경남"></div>
+                <div id="jeju" class="mapArea" value="제주"></div>
+                <div id="all" class="mapAll" value="전체"></div>
             </div>
             <div class="w2c1_search">
                 <div class="imgbox">
@@ -89,47 +106,20 @@
         <div id="w2_content2">
             <div class="w2c2_store">
                 <h3>매장 정보</h3>
+                <select id="dataPerPage">
+                    <option value="10">10개씩 보기</option>
+                    <option value="15">15개씩 보기</option>
+                    <option value="20">20개씩 보기</option>
+                </select>
                 <div id="store_table"></div>
-                <script>
-                    $(function(){
-                        $.ajax({
-                            url: "./hollys.json",
-                            dataType: "json",
-                            success: function(data){
-                                
-                                if(data.length>0){
-                                    var tb = $("<table/>");
 
-                                    for(var i in data){
-                                        var $area = data[i].지역;
-                                        var $store = data[i].매장명;
-                                        var $adrs = data[i].주소;
-                                        var $tel = data[i].전화번호;
+                <ul id="pagingul">
 
-                                        var row= $("<tr/>").append(
-                                            $("<td/>").text($area),
-                                            $("<td/>").text($store),
-                                            $("<td/>").text($adrs),
-                                            $("<td/>").text($tel),
-                                        );
-
-                                        tb.append(row);
-                                    }
-                                    $("#store_table").append(tb);
-                                }
-                            }
-                        });
-                    });
-                </script>
-                <script>
-                    $("#myInput").on("keyup", function(){
-                        var value = $(this).val();
-                        $("#store_table tr").filter(function(){
-                            $(this).toggle($(this).text().indexOf(value)> -1)
-                        });
-                    });
-                </script>
+                </ul>
+                <!-- 지역 매장검색 -->
+                <script src="js/area_click.js"></script>
             </div>
+            <script src="js/dataPage.js"></script>
         </div>
     </div>
 

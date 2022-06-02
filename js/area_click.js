@@ -1,15 +1,47 @@
-var admin = require("firebase-admin");
+$(function () {
+  $.ajax({
+    url: "./hollys.json",
+    dataType: "json",
+    success: function (data) {
 
-var serviceAccount = require("path/to/serviceAccountKey.json");
+      if (data.length > 0) {
+        var tb = $("<table/>");
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://hollys-dev-default-rtdb.firebaseio.com"
+        for (var i in data) {
+          var $area = data[i].지역;
+          var $store = data[i].매장명;
+          var $adrs = data[i].주소;
+          var $tel = data[i].전화번호;
+
+          var row = $("<tr/>").append(
+            $("<td/>").text($area),
+            $("<td/>").text($store),
+            $("<td/>").text($adrs),
+            $("<td/>").text($tel),
+          );
+
+          tb.append(row);
+        }
+        $("#store_table").append(tb);
+      }
+    }
+  });
 });
 
-function area() {
-    var value = $(this).attr("title");
-    $("#store_table table tr td:first-child").filter(function () {
-        $(this).toggle($(this).text().indexOf(value) > -1)
-    });
-};
+$("#myInput").on("keyup", function () {
+  var value = $(this).val();
+  $("#store_table tr").filter(function () {
+    $(this).toggle($(this).text().indexOf(value) > -1)
+  });
+});
+
+$(".mapArea").on("click", function () {
+  var value = $(this).attr("value");
+  $("#store_table tr td:first-child").filter(function () {
+    $(this).parent().toggle($(this).text().indexOf(value) > -1)
+  });
+});
+
+$(".mapAll").on("click", function () {
+  $("#store_table tr").show();
+});
