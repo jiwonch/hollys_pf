@@ -18,7 +18,7 @@ $(function () {
           offSet = index + perPage;
         }
 
-        const slicedItems = data.slice(index, offSet)
+        const slicedItems = data.slice(index, offSet);
         const html = slicedItems.map(item =>
           `
           <tr>
@@ -60,7 +60,7 @@ $(function () {
         const pages = Math.ceil(totalItems / perPage);
 
         for (let i = 1; i <= pages; i++) {
-          pagination += `<a href="#" onClick="displayItems(${i},${perPage})">${i}</a>`;
+          pagination += `<a href="#" onclick="displayItems(${i},${perPage})">${i}</a>`;
         }
 
         document.getElementById('pagination').innerHTML = pagination;
