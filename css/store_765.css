@@ -64,7 +64,7 @@ table {
     background-color: white;
 }
 
-/* 가장 큰 화면 작업시작 1200px 이상 */
+/* 765-949 */
 
 @media screen and (min-width: 765px) and (max-width: 949px) {
     #wrap2 {

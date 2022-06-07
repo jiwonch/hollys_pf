@@ -64,11 +64,11 @@ table {
     background-color: white;
 }
 
-/* 600-764 */
+/* 가장 작은 화면 작업 시작 599이하 */
 
-@media screen and (min-width: 600px) and (max-width: 764px) {
+@media screen and (max-width: 599px) {
     #wrap2 {
-        width: 550px;
+        width: 100%;
         height: auto;
         margin: 0 auto;
     }
@@ -79,12 +79,13 @@ table {
     }
 
     #w2_content1 {
-        width: 100%;
+        width: 90%;
         height: auto;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-top: 50px;
+        /* margin-top: 50px; */
+        margin: 50px auto 0;
     }
 
     #w2_content1 h1 {
@@ -393,11 +394,12 @@ table {
     }
 
     #w2_content2 {
-        width: 100%;
+        width: 90%;
         height: auto;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        margin: 0 auto;
     }
 
     .w2c2_store {
@@ -426,7 +428,7 @@ table {
     #store_table table td {
         border: 2px solid #f0dedf;
         height: 50px;
-        font-size: 13px;
+        font-size: 11px;
         font-family: 'adobaonlyR';
     }
 
@@ -456,7 +458,7 @@ table {
         opacity: 0.4;
         color: white;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 20px;
         border-radius: 10px;
         font-family: 'adobaonlyR';
         margin: 20px 0 20px 0;
@@ -470,7 +472,7 @@ table {
         color: white;
         opacity: 0.4;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 20px;
         border-radius: 10px;
         font-family: 'adobaonlyR';
         margin: 20px 0 20px 0;
