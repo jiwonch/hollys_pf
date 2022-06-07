@@ -94,7 +94,7 @@ table {
         font-family: 'S-CoreDream-5Medium';
         color: #ba000c;
         letter-spacing: 2px;
-        font-size: 50px;
+        font-size: 35px;
         font-weight: bold;
     }
 
@@ -373,7 +373,7 @@ table {
     #inputbox>input::placeholder {
         color: #ba000c;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 13px;
         text-align: center;
         letter-spacing: 2px;
     }
@@ -385,7 +385,7 @@ table {
         border: none;
         position: absolute;
         top: 85px;
-        left: 420px;
+        left: 250px;
     }
 
     #inputbox>button>img {
