@@ -357,6 +357,7 @@ table {
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
     }
 
     #inputbox>input {
@@ -382,7 +383,8 @@ table {
         background-color: transparent;
         border: none;
         position: absolute;
-        margin: 2px -200px 0 0;
+        top: 93px;
+        left: 270px;
     }
 
     #inputbox>button>img {
