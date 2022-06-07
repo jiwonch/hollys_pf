@@ -116,7 +116,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -191px 0 0 -135px;
+        top: 97px;
+        left: 197px;
         cursor: pointer;
     }
 
@@ -127,7 +128,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -165px 0 0 -60px;
+        top: 110px;
+        left: 234px;
         cursor: pointer;
     }
 
@@ -138,7 +140,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -230px 0 0 -79px;
+        top: 76px;
+        left: 225px;
         cursor: pointer;
     }
 
@@ -149,7 +152,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -228px 0 0 51px;
+        top: 78px;
+        left: 290px;
         cursor: pointer;
     }
 
@@ -160,7 +164,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -66px 0 0 -111px;
+        top: 159px;
+        left: 209px;
         cursor: pointer;
     }
 
@@ -171,7 +176,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -90px 0 0 -45px;
+        top: 148px;
+        left: 242px;
         cursor: pointer;
     }
 
@@ -182,7 +188,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -112px 0 0 24px;
+        top: 137px;
+        left: 276px;
         cursor: pointer;
     }
 
@@ -193,7 +200,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -18px 0 0 -27px;
+        top: 183px;
+        left: 251px;
         cursor: pointer;
     }
 
@@ -204,7 +212,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 3px 0 0 -93px;
+        top: 194px;
+        left: 218px;
         cursor: pointer;
     }
 
@@ -215,7 +224,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 73px 0 0 -76px;
+        top: 229px;
+        left: 226px;
         cursor: pointer;
     }
 
@@ -226,7 +236,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 143px 0 0 -103px;
+        top: 264px;
+        left: 213px;
         cursor: pointer;
     }
 
@@ -237,7 +248,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -65px 0 0 112px;
+        top: 160px;
+        left: 320px;
         cursor: pointer;
     }
 
@@ -248,7 +260,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 7px 0 0 70px;
+        top: 195px;
+        left: 299px;
         cursor: pointer;
     }
 
@@ -259,7 +272,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 46px 0 0 153px;
+        top: 215px;
+        left: 341px;
         cursor: pointer;
     }
 
@@ -270,7 +284,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 109px 0 0 113px;
+        top: 247px;
+        left: 321px;
         cursor: pointer;
     }
 
@@ -281,7 +296,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 83px 0 0 28px;
+        top: 234px;
+        left: 278px;
         cursor: pointer;
     }
 
@@ -292,7 +308,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 229px 0 0 -140px;
+        top: 307px;
+        left: 194px;
         cursor: pointer;
     }
 
@@ -303,7 +320,8 @@ table {
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 228px 0 0 113px;
+        top: 306px;
+        left: 321px;
         cursor: pointer;
     }
 
