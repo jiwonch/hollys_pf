@@ -94,7 +94,7 @@ table {
         font-family: 'S-CoreDream-5Medium';
         color: #ba000c;
         letter-spacing: 2px;
-        font-size: 35px;
+        font-size: 30px;
         font-weight: bold;
     }
 
@@ -111,8 +111,9 @@ table {
     }
 
     .w2c1_map img{
-        width: 68%;
-        height: 400px;
+        width: 280px;
+        height: 280px;
+        margin: 0 auto;
     }
 
     #incheon {
@@ -362,7 +363,7 @@ table {
     }
 
     #inputbox>input {
-        width: 70%;
+        width: 85%;
         height: 20%;
         text-align: center;
         border: 2px solid #ba000c;
@@ -385,7 +386,7 @@ table {
         border: none;
         position: absolute;
         top: 85px;
-        left: 250px;
+        left: 80%;
     }
 
     #inputbox>button>img {
