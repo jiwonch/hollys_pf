@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hollys coffee</title>
+    <link rel="stylesheet" href="css/store_600.css">
+    <link rel="stylesheet" href="css/store_765.css">
+    <link rel="stylesheet" href="css/store_950.css">
     <link rel="stylesheet" href="css/store_1200.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -75,6 +78,8 @@
                     </map>
                 </map>
                 <script src="js/area_click.js"></script> -->
+
+                <!-- 지역 위치 지정 매장 선택 필터링-->
                 <div id="incheon" class="mapArea" value="인천"></div>
                 <div id="gyeonggi" class="mapArea" value="경기"></div>
                 <div id="seoul" class="mapArea" value="서울"></div>
@@ -95,11 +100,16 @@
                 <div id="all" class="mapAll" value="전체"></div>
             </div>
             <div class="w2c1_search">
+
+                <!-- 지도 이미지 -->
                 <div class="imgbox">
                     <img src="img/index/footer_logo.png" alt="logo">
                 </div>
+
+                <!-- 매장검색 필터링 -->
                 <div id="inputbox">
-                    <input type="text" id="myInput" placeholder="매장명을 검색하세요">
+                    <input type="text" id="myInput" placeholder="매장명을 검색하세요.">
+                    <button><img src="img/store/search_icon.png" alt="search_icon"></button>
                 </div>
             </div>
         </div>
@@ -107,15 +117,19 @@
             <div class="w2c2_store">
                 <h3>매장 정보</h3>
 
+                <!-- 매장 테이블 삽입 -->
                 <div id="store_table">
-                    <table>
-                    </table>
                 </div>
 
-                <div id="pagination"></div>
                 <!-- 지역 매장검색 -->
                 <script src="js/area_click.js"></script>
             </div>
+        </div>
+
+        <!-- 테이블 10개만 미리보기 이후 펼치고 접기 -->
+        <div id="w2_content3">
+            <button id="tb_close">접기</button>
+            <button id="tb_more">펼치기</button>
         </div>
     </div>
 

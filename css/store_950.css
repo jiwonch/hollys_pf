@@ -66,9 +66,9 @@ table {
 
 /* 가장 큰 화면 작업시작 1200px 이상 */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 950px) and (max-width: 1199px) {
     #wrap2 {
-        width: 1140px;
+        width: 900px;
         height: auto;
         margin: 0 auto;
     }
@@ -359,7 +359,7 @@ table {
         background-color: transparent;
         border: none;
         position: absolute;
-        margin: 2px -350px 0 0;
+        margin: 2px -250px 0 0;
     }
 
     #inputbox>button>img {

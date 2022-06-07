@@ -66,9 +66,9 @@ table {
 
 /* 가장 큰 화면 작업시작 1200px 이상 */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 764px) {
     #wrap2 {
-        width: 1140px;
+        width: 550px;
         height: auto;
         margin: 0 auto;
     }
@@ -80,9 +80,9 @@ table {
 
     #w2_content1 {
         width: 100%;
-        height: 500px;
+        height: auto;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         margin-top: 50px;
     }
@@ -98,107 +98,112 @@ table {
     }
 
     .w2c1_map {
-        width: 50%;
-        height: 85%;
+        width: 100%;
+        height: auto;
         background-color: white;
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
         border: 3px dashed #ba000c;
-        border-radius: 2% 0 0 2%;
+        border-radius: 2% 2% 0 0;
+    }
+
+    .w2c1_map img{
+        width: 68%;
+        height: 400px;
     }
 
     #incheon {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -191px 0 0 -135px;
+        margin: -207px 0 0 -135px;
         cursor: pointer;
     }
 
     #gyeonggi {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -165px 0 0 -60px;
+        margin: -181px 0 0 -61px;
         cursor: pointer;
     }
 
     #seoul {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -230px 0 0 -79px;
+        margin: -252px 0 0 -77px;
         cursor: pointer;
     }
 
     #gangwon {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -228px 0 0 51px;
+        margin: -250px 0 0 48px;
         cursor: pointer;
     }
 
     #chungnam {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -66px 0 0 -111px;
+        margin: -76px 0 0 -112px;
         cursor: pointer;
     }
 
     #sejong {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -90px 0 0 -45px;
+        margin: -100px 0 0 -45px;
         cursor: pointer;
     }
 
     #chungbuk {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -112px 0 0 24px;
+        margin: -122px 0 0 24px;
         cursor: pointer;
     }
 
     #daejeon {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -18px 0 0 -27px;
+        margin: -21px 0 0 -27px;
         cursor: pointer;
     }
 
     #jeonbuk {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
@@ -209,113 +214,113 @@ table {
     }
 
     #gwangju {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 73px 0 0 -76px;
+        margin: 80px 0 0 -77px;
         cursor: pointer;
     }
 
     #jeonnam {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 143px 0 0 -103px;
+        margin: 155px 0 0 -103px;
         cursor: pointer;
     }
 
     #gyeongbuk {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: -65px 0 0 112px;
+        margin: -69px 0 0 110px;
         cursor: pointer;
     }
 
     #daegu {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 7px 0 0 70px;
+        margin: 7px 0 0 68px;
         cursor: pointer;
     }
 
     #ulsan {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 46px 0 0 153px;
+        margin: 51px 0 0 152px;
         cursor: pointer;
     }
 
     #busan {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 109px 0 0 113px;
+        margin: 119px 0 0 110px;
         cursor: pointer;
     }
 
     #gyeongnam {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 83px 0 0 28px;
+        margin: 91px 0 0 26px;
         cursor: pointer;
     }
 
     #jeju {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 229px 0 0 -140px;
+        margin: 250px 0 0 -141px;
         cursor: pointer;
     }
 
     #all {
-        width: 35px;
+        width: 30px;
         height: 35px;
         border-radius: 50%;
         border: 2px solid rgba(186, 0, 12, 0.3);
         background-color: rgba(186, 0, 12, 0.3);
         position: absolute;
-        margin: 228px 0 0 113px;
+        margin: 245px 0 0 112px;
         cursor: pointer;
     }
 
     .w2c1_search {
-        width: 50%;
-        height: 85%;
+        width: 100%;
+        height: 400px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: rgba(186, 0, 12, 0.52);
-        border-radius: 0 2% 2% 0;
+        border-radius: 0 0 2% 2%;
     }
 
     .imgbox {
@@ -359,7 +364,7 @@ table {
         background-color: transparent;
         border: none;
         position: absolute;
-        margin: 2px -350px 0 0;
+        margin: 2px -320px 0 0;
     }
 
     #inputbox>button>img {
@@ -401,6 +406,7 @@ table {
     #store_table table td {
         border: 2px solid #f0dedf;
         height: 50px;
+        font-size: 13px;
         font-family: 'adobaonlyR';
     }
 
