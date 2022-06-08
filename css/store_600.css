@@ -114,6 +114,10 @@ table {
         height: 400px;
     }
 
+    .w2c1_map_1{
+        display: none;
+    }
+
     #incheon {
         width: 30px;
         height: 35px;

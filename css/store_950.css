@@ -109,6 +109,10 @@ table {
         border-radius: 2% 0 0 2%;
     }
 
+    .w2c1_map_1{
+        display: none;
+    }
+
     #incheon {
         width: 35px;
         height: 35px;
