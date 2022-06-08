@@ -263,6 +263,10 @@ a {
         width: 80%;
     }
 
+    .input_container button{
+        background-color: transparent;
+    }
+
     .input-field{
         width: 100px !important;
     }
@@ -518,6 +522,10 @@ a {
         width: 100%;
     }
 
+    .input_container button{
+        background-color: transparent;
+    }
+
     .icon {
         padding: 10px;
         background-color: #ba000c;
@@ -768,6 +776,10 @@ a {
         width: 100%;
     }
 
+    .input_container button{
+        background-color: transparent;
+    }
+
     .icon {
         padding: 10px;
         background-color: #ba000c;
@@ -974,6 +986,10 @@ a {
         width: 100%;
     }
 
+    .input_container button{
+        background-color: transparent;
+    }
+
     .icon {
         padding: 10px;
         background-color: #ba000c;
@@ -1178,6 +1194,10 @@ a {
 
     .input_container {
         width: 100%;
+    }
+
+    .input_container button{
+        background-color: transparent;
     }
 
     .icon {
