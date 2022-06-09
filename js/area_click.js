@@ -30,13 +30,13 @@ $(function () {
         $("#tb_more").click(function () {
           $("#store_table table tr:nth-of-type(10)").nextAll().slideToggle();
           $(this).slideToggle();
-          $("#tb_close").slideToggle();
+          $("#tb_close").toggle();
         });
 
         $("#tb_close").click(function () {
           $("#store_table table tr:nth-of-type(10)").nextAll().slideToggle();
           $(this).slideToggle();
-          $("#tb_more").slideToggle();
+          $("#tb_more").toggle();
         });
       }
     }

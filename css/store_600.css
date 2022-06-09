@@ -445,15 +445,14 @@ table {
     }
 
     #w2_content3 {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 20%;
+        height: 90px;
+        position: relative;
+        margin: 20px auto;
     }
 
     #tb_more {
-        width: 20%;
+        width: 100%;
         height: 60px;
         border: none;
         background-color: #ba000c;
@@ -463,11 +462,11 @@ table {
         font-size: 30px;
         border-radius: 10px;
         font-family: 'adobaonlyR';
-        margin: 20px 0 20px 0;
+        position: absolute;
     }
 
     #tb_close {
-        width: 20%;
+        width: 100%;
         height: 60px;
         border: none;
         background-color: #ba000c;
@@ -477,7 +476,7 @@ table {
         font-size: 30px;
         border-radius: 10px;
         font-family: 'adobaonlyR';
-        margin: 20px 0 20px 0;
+        position: absolute;
         display: none;
     }
 
